@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.mundo {
+    width: 20px;
+    height: auto;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.why-expressvpn {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.why-expressvpn h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.feature-left {
+    flex-direction: row; /* Imagen a la izquierda, texto a la derecha */
+}
+
+.feature-right {
+    flex-direction: row-reverse; /* Imagen a la derecha, texto a la izquierda */
+}
+
+.feature img {
+    width: 40%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin: 0 20px;
+}
+
+.feature .text {
+    width: 50%; /* Ajusta el ancho del texto */
+    text-align: left;
+}
+
+.feature .text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature .text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative; 
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilo para la imagen de redes sociales */
+.redes {
+    position: absolute; 
+    bottom: 10px; /* Ajustado a 10px para que no se superponga */
+    right: 200px; 
+    width: 200px; 
+    height: auto; 
+}
